@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cd0c64352e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+  <div class="container">
+      <div class="header">
+          <h2>Create Account</h2>
+      </div>
+      <form action="" class="form" id="form">
+          <div class="form-control">
+              <label>Username</label>
+              <input type="text" placeholder="Your name" id="username">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label>Email</label>
+              <input type="email" placeholder="Your email" id="useremail">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label>Password</label>
+              <input type="password" placeholder="Your password" id="userpass">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+          <div class="form-control">
+              <label>Password Check</label>
+              <input type="password" placeholder="Password check" id="userpasscheck">
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+          </div>
+
+          <button>Sumit Now</button>
+          <div class="success-cont">
+              <div  id="success-msg"></div>
+              <i class="fas fa-check-circle"></i>
+          </div>
+         
+      </form>
+  </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
